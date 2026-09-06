@@ -8,11 +8,20 @@
 
 
 
-  <div class="relative flex flex-col items-center justify-center h-full text-white">
-    <section id="hero" class=" sticky top-10 bottom-10 text-center px-10 md:px-0">
-      <h1 class="text-7xl font-bold">Embedathon</h1>
-      <h2 class="mt-4 text-5xl">24-hr Embedded Systems Hackathon</h2>
-      <h2 class="mt-2 text-2xl">26th December, 2024 - 12th January, 2025</h2>
+  <div class="relative flex flex-col items-center justify-center h-full w-full max-w-full min-w-0 text-white">
+    <section id="hero" class="sticky top-10 bottom-10 w-full max-w-full min-w-0 box-border text-center px-4 sm:px-10 md:px-0">
+      <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold break-words">
+        Embedathon
+      </h1>
+
+      <h2 class="mt-4 text-2xl sm:text-4xl md:text-5xl break-words">
+        24-hr Embedded Systems Hackathon
+      </h2>
+
+      <h2 class="mt-2 text-lg sm:text-xl md:text-2xl break-words">
+        26th December, 2024 - 12th January, 2025
+      </h2>
+
       <div class="my-11">
         <svg class="h-8 w-8 text-white mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -28,9 +37,9 @@
 
 <div class="text-center text-white text-2xl">
   <p class="mt-11 my-5">Powered by </p>
-  <div class="bg-white inline-block rounded-xl p-2">
+  <div class="bg-white inline-block rounded-xl p-2">  
 
-    <img class="h-24" src="{% static 'img/embedathon/unstop.png' %}" alt="Unstop" />
+    <img class="h-24 max-w-full object-contain" src="{% static 'img/embedathon/unstop.png' %}" alt="Unstop" />
   </div>
 
 </div>
@@ -38,9 +47,14 @@
 
 <div class="prose max-w-none flex flex-col md:flex-row items-center justify-center mx-4 sm:mx-6 md:mx-11 gap-5 my-11">
 
-  <img src="{% static 'img/embedathon/Embedathon.png' %}" alt="Embedathon" class="w-full max-w-md md:w-auto md:max-w-none h-auto md:h-96 mx-auto cursor-pointer rounded-xl
-          translate-x-[10px] translate-y-[0px] translate-z-[70px]
-          shadow-[rgba(0,0,0,0.4)_-30px_30px_15px_5px] my-6" />
+  <img
+    src="{% static 'img/embedathon/Embedathon.png' %}"
+    alt="Embedathon"
+    class="w-full max-w-md md:w-auto md:max-w-none h-auto md:h-96 mx-auto cursor-pointer rounded-xl
+           translate-x-0 md:translate-x-[10px]
+           translate-y-[0px] translate-z-[70px]
+           shadow-[rgba(0,0,0,0.4)_-30px_30px_15px_5px] my-6"
+  />
 
   <section id="about" class="py-5 px-5 pt-0 m-0 text-center flex-1 min-w-0">
 
